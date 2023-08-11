@@ -1,0 +1,18 @@
+{
+    "name": "Project.Components.Combat",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4dd3125ceb8508448839f73fd8eeccde",
+        "GUID:32d6aed7841dd4f4688a322af2852de2",
+        "GUID:c1d36095a147d4a4c9886cd4ddbe5904"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Granjita.Classes.Characters {
     [CreateAssetMenu(fileName = "Character", menuName = "Game/Character")]
     public class Character : ScriptableObject {
-        [SerializeField] private string Name;
-        [SerializeField] private Classes CurrentClass;
+        public string Name;
+        public Classes CurrentClass;
     }
 }

@@ -18,5 +18,29 @@ namespace Granjita.Shared {
             Magic = magic;
             Speed = speed;
         }
+
+        public float GetHealth() {
+            return Health;
+        }
+        
+        public float GetAttack() {
+            return Attack;
+        }
+        
+        public float GetDefense() {
+            return Defense;
+        }
+        
+        public float GetEvasion() {
+            return Evasion;
+        }
+        
+        public float GetMagic() {
+            return Magic;
+        }
+        
+        public float GetSpeed() {
+            return Speed;
+        }
     }
 }

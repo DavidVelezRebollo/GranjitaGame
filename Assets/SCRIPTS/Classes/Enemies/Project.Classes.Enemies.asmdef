@@ -1,0 +1,16 @@
+{
+    "name": "Project.Classes.Enemies",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2c92f9aedda1cd640bd672a87479c161"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
