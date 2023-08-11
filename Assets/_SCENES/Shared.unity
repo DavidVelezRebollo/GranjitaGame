@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 20594033}
+  - component: {fileID: 20594034}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -154,6 +155,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &20594034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20594032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e56d9c846196404e833474e5091732e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &469977844
 GameObject:
   m_ObjectHideFlags: 0
@@ -163,6 +176,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 469977845}
+  - component: {fileID: 469977846}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -185,6 +199,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &469977846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 469977844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b4d772d45a37df4da547f85f358d27d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GeneralMixerGroup: {fileID: 0}
+  MusicMixerGroup: {fileID: 0}
+  SoundsEffectsMixerGroup: {fileID: 0}
+  Sounds: []
 --- !u!1 &1728561704
 GameObject:
   m_ObjectHideFlags: 0
